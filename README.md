@@ -26,7 +26,7 @@ Website providers control embedded sign-in, media playback, and background behav
 
 ## Getting started
 
-You’ll need **Xcode 27 or later** and an **iOS 27 or later** simulator or iPhone. The app uses Apple frameworks and has no third-party runtime dependencies.
+You’ll need **Xcode 27 or later** and an **iOS 26 or later** simulator or iPhone. The app uses Apple frameworks and has no third-party runtime dependencies.
 
 1. Open `CabinView.xcodeproj` in Xcode.
 2. Select the **CabinView** scheme and an iPhone simulator.
