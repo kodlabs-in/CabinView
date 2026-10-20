@@ -1,0 +1,8 @@
+only_rules:
+  - cyclomatic_complexity
+cyclomatic_complexity:
+  warning: 6
+  error: 11
+  ignores_case_statements: false
+included:
+  - CabinView
