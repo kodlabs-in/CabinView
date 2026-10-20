@@ -70,11 +70,11 @@ final class BrowserUITests: XCTestCase {
         XCTAssertTrue(app.textFields["browserSearch"].isEnabled)
     }
 
-    func testPrivacyPolicyLinkIsDisabledUntilConfigured() {
+    func testPrivacyPolicyLinkIsEnabled() {
         app.buttons["browserMore"].tap()
         let privacyPolicy = app.buttons["Privacy policy"]
         XCTAssertTrue(privacyPolicy.waitForExistence(timeout: 3))
-        XCTAssertFalse(privacyPolicy.isEnabled)
+        XCTAssertTrue(privacyPolicy.isEnabled)
         XCTAssertFalse(app.staticTexts["CabinView privacy policy"].exists)
     }
 

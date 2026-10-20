@@ -68,7 +68,7 @@ swiftlint lint --config .swiftlint.yml --no-cache --strict
 
 CabinView has no app account, analytics SDK, or advertising SDK. Searches are sent to Google, and websites receive browsing requests under their own policies. WebKit keeps website data on the device; use **More → Clear website data** to remove it.
 
-The **Privacy policy** menu item opens a hosted HTTPS policy. Its URL is intentionally blank for now: set `CabinViewPrivacyPolicyURL` in `Config/Info.plist` when the policy is available. The menu item remains disabled until then.
+The **Privacy policy** menu item opens [CabinView’s privacy policy](https://cabinview.kodlabs.in/privacy). Its HTTPS URL is configured by `CabinViewPrivacyPolicyURL` in `Config/Info.plist`. For support, visit [Contact us](https://cabinview.kodlabs.in/contact).
 
 ## Contributing
 
